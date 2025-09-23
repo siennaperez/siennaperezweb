@@ -1,0 +1,70 @@
+.experience-container {
+  background-color: #fdf9ed; /* light beige like mockup */
+  padding: 2rem;
+  overflow-y: scroll; /* makes it scroll */
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: #000;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  width: 45%;
+  padding: 1rem;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.timeline-item h3 {
+  color: #800000;
+  font-weight: bold;
+}
+
+.timeline-item ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #333;
+}
+
+.timeline-item.left {
+  text-align: right;
+  left: -1%;
+}
+
+.timeline-item.right {
+  text-align: left;
+  left: 20%;
+}
+
+/* Add connector line */
+.timeline-item.left::before,
+.timeline-item.right::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 2px;
+  background: #000;
+}
+
+.timeline-item.left::before {
+  right: -20px;
+}
+
+.timeline-item.right::before {
+  left: -20px;
+}

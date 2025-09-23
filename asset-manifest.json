@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/siennaperezweb/static/css/main.e3bcbc9a.css",
+    "main.js": "/siennaperezweb/static/js/main.9a0c6d23.js",
+    "static/js/453.d74d7166.chunk.js": "/siennaperezweb/static/js/453.d74d7166.chunk.js",
+    "static/media/orchid.png": "/siennaperezweb/static/media/orchid.d2610f094cc3b72a8d1b.png",
+    "static/media/cam.png": "/siennaperezweb/static/media/cam.0085b9dd50e40f56b7f8.png",
+    "static/media/red-patches.png": "/siennaperezweb/static/media/red-patches.2fb4781b180da22c8954.png",
+    "index.html": "/siennaperezweb/index.html",
+    "main.e3bcbc9a.css.map": "/siennaperezweb/static/css/main.e3bcbc9a.css.map",
+    "main.9a0c6d23.js.map": "/siennaperezweb/static/js/main.9a0c6d23.js.map",
+    "453.d74d7166.chunk.js.map": "/siennaperezweb/static/js/453.d74d7166.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3bcbc9a.css",
+    "static/js/main.9a0c6d23.js"
+  ]
+}
