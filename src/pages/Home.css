@@ -17,11 +17,19 @@ html, body {
     position: relative;
 }
 
+.toops-img {
+  width: 170px;
+  height: auto;
+  top: 360px;
+  left: 80px;
+  position: fixed
+}
+
 .cam-img {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  width: 200px;
+  position: fixed;
+  top: 150px;
+  left: -50px;
+  width: 450px;
   transform: rotate(90deg);
 }
 
@@ -29,7 +37,7 @@ html, body {
   position: absolute;
   top: 200px;
   right: 150px;
-  width: 150px;
+  width: 50px;
 }
 
 .redpatches-img {
@@ -39,4 +47,42 @@ html, body {
   width: 10px;
   size-adjust: 1000%;
   size-adjust: 10px;
+}
+
+
+.honeywell-img {
+  position: fixed;
+  top: 380px;
+  left: 1100px;
+  width: 300px;
+}
+
+.wicse-img {
+  position: fixed;
+  top: 180px;
+  left: 300px;
+  width: 400px;
+  transform: rotate(-13deg);
+}
+
+.sienna-img {
+  position: fixed;
+  top: 390px;
+  left: 620px;
+  width: 300px;
+}
+
+
+.winghacks-img {
+  position: fixed;
+  top: 450px;
+  left: 350px;
+  width: 250px;
+}
+
+.polaroids-img {
+  position: fixed;
+  top: 50px;
+  left: 100px;
+  width: 250px;
 }
